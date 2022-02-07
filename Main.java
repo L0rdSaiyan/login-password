@@ -8,7 +8,7 @@ public class Main
 		Random aleatorio = new Random();
 		
 		String login, password, confirm;
-		int random_password=aleatorio.nextInt(2), confirm2;
+		int random_password=aleatorio.nextInt(1000000000), confirm2;
 		
 		
 		System.out.println("Informe um nome de usuário: ");
