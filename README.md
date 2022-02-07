@@ -1,1 +1,1 @@
-# login-password
+Login e senha utilizando os métodos .length() (para contar a quantidade de caracteres presentes na String), .toUpperCase() (para deixar a String com caracteres maiúsculos) e to.LowerCase (para facilitar na estrutura de decisão deixando todos os caracteres minúsculos).
