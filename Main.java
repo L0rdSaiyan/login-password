@@ -30,12 +30,12 @@ public class Main
 	               
 	                  System.out.println("Senha gerada: "+random_password);
 	               
-	                   System.out.println("Confirme a sua senha random: ");
+	                   System.out.println("Confirme a sua senha: ");
 	                    confirm2=reader.nextInt();
 	               
 	                     while(!(confirm2==random_password)){
 	                   
-	                      System.out.println("Senhas random não conferem!");
+	                      System.out.println("Senhas não conferem!");
 	                       confirm2=reader.nextInt();
 	                   
 	               }
