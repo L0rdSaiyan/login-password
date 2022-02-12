@@ -19,7 +19,7 @@ public class Main
 		    System.out.println("O seu nome de usuário ultrapassou o limite de 30 caracteres ("+login.length()+"). \n\nInforme um nome de usuário:  ");
 		    login=reader.nextLine();
 		    
-	}
+	 }
 		
 	         System.out.println("Informe uma senha de usuário (deve conter no mínimo 6 caracteres)    (Se desejar uma senha gerada \n                                                                     aleatóriamente, informe \"Random\"): ");
 	          password=reader.nextLine();
@@ -38,7 +38,7 @@ public class Main
 	                      System.out.println("Senhas não conferem!");
 	                       confirm2=reader.nextInt();
 	                   
-	               }
+	 }
 	               
 	                        if(confirm2==random_password){
 	                  
@@ -46,9 +46,9 @@ public class Main
 	                          System.out.println("Nome de usuário: "+login.toUpperCase()+"\nSenha: "+random_password);
 	                  
 	                  
-	              }
+	 }
               
-	           }else{
+	                            }else{
 	           
 	           
         	                    while(password.length()<6){
@@ -80,7 +80,7 @@ public class Main
 	 
 	  
 	               
-	           }
+	 }
 	    
 	    
 	}
